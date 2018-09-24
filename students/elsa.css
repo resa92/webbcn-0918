@@ -1,0 +1,56 @@
+  /* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section.students{
+  float: left;
+  width: 50%;
+}
+
+section.resources{
+  float: right;
+  width: 50%;
+}
+
+/*-----Typography ---*/
+@font-face  {
+  font-family: 'Roboto', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Roboto');
+}
+
+body  {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*------Layout------*/
+
+.container {
+  margin: 0 20px;
+}
+.hidden {
+  display: none;
+}
+@media (min-width : 720px) {
+  section.students {
+    float: left;
+  }
+  section.resources {
+    float: right;
+  }
+
+.container {
+  max-width: 720px;
+}
+
+}
+
