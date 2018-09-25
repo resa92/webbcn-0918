@@ -6,14 +6,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="elsa.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 </head>
 
 <body>
-  <header class="container header">	  
-    <a href="https://tawebbcn.github.io/webbcn-0918/">Home</a>
+  <header class="header">	  
     <h1>Cohort 09 2018</h1>	
-  </header>
-        
+    <section class="student-search">
+      <div class="search">
+        <label for="name">Students</label>
+        <div class="input-student">
+          <input placeholder="Search student name..." type="text" class="text">
+        </div>
+        <div class="search-results"></div>
+      </div>
+      <a href="https://tawebbcn.github.io/webbcn-0918/">Home</a>
+    </section>
+  </header>  
+  <div>
+    <h1 class="timer"></h1>
+    <button class="start-timer">Countdown!</button>
+  </div>   
   <section class="profile">	
     <h2>Elsa</h2>	
     <img class="cat" src="./Steampunk" alt="Steampunk cat">	
@@ -23,7 +36,8 @@
       <li>Tv shows & Anime</li>	
       <li>Reading</li>	
       <li>Watercolor painting</li>	
-    </ul>	
+    </ul>
+    <button class="myButton">Click me!</button>	
   </section>
   <section class="experiments">
     <h2>Experimentos</h2>
@@ -37,12 +51,12 @@
         <p>JS Basic</p>
         <p><a href="" class="external">Miralo en Github</a></p>
       </div>
+      <footer>
+        <p>Created in XX/XX/2018</p>
+      </footer>
     </article>
   </section>
-  <footer>
-    <p>Created in XX/XX/2018</p>
-  </footer>
-  <button class="myButton">Click me!</button>
 </body>
+<script src="../students.js"></script>
 <script src="elsa.js"></script>
 </html>
