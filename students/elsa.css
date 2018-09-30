@@ -12,6 +12,7 @@ body {
   padding: 0;
   color: #433463;
   background-image: url(./fondo.jpeg);
+  background-color: rgba(0, 0, 0, .10);
   width: 100%;
   background-repeat: no-repeat;
 }
@@ -34,6 +35,7 @@ header.header{
   margin: 0 auto;
   background: #433463;
   box-shadow: 0 1px 1px rgba(0, 0, 0, .15);
+  padding-left: 2%;
 }
 header a {
   color: #fff;
@@ -45,6 +47,7 @@ label {
   text-align: left;
 }
 .student-search{
+
   display: flex;  
   flex-direction: column;
 }
@@ -105,7 +108,7 @@ section.experiments{
 	display:inline-block;
 	cursor:pointer;
 	color:#433463;
-	font-family:Arial;
+  font-family: 'Josefin Sans', sans-serif;
 	font-size:17px;
 	padding:16px 31px;
 	text-decoration:none;
